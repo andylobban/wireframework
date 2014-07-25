@@ -1,0 +1,90 @@
+[data-wf="block"], 
+[data-wf="block alt"], 
+[data-wf="block small"], 
+[data-wf="banner"], 
+[data-wf="button"], 
+.button {
+	background: #ddd;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 1em;
+	}
+
+[data-wf="block alt"] {
+	background: transparent;
+	border: 1px solid #ddd; 
+	}
+
+[data-wf="block small"] {
+	font-size: 0.8em;
+	padding: 0.3em;
+	}
+	
+[data-wf="button"], 
+.button {
+	cursor: pointer;
+	margin-top: 0;
+	padding: 0.4em 5%;
+	}
+	
+[data-wf="button"]:hover {
+	background-color: #aaa;
+	}
+	
+[data-wf="banner"] {
+	height: 200px;
+	}
+
+.masthead__logo {
+	font-size: 1.3em;
+	}
+
+h1 {
+	font-size: 1.8em;
+	margin-bottom: 1em;
+	}
+
+h2, h3 {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	}
+
+h2 {
+	font-size: 1.3em;
+	}
+
+h3 {
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+	}
+	
+[data-wf="block"] h2:first-child, 
+[data-wf="block"] h3:first-child {
+	margin-top: 0;
+	}
+	
+.logo {
+	font-size: 1.2em;
+	}
+	
+a {
+	color: #007bc3;
+	font-weight: bold;
+	}
+	
+p {
+	margin-bottom: 1em;
+	}
+	
+ol li {
+	list-style-type: decimal;
+	margin-left: 1em;
+	}
+	
+cite {
+	margin-bottom: 1em;
+	}
+	
+input {
+	border: 1px solid #999;
+	padding: 0.35em;
+	}
